@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D00BD751DBB5DE2005E665E /* WAPhotoBrowserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D00BD741DBB5DE2005E665E /* WAPhotoBrowserTableViewController.m */; };
+		0D00BD781DBB7ABC005E665E /* WAPhotoBrowserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D00BD771DBB7ABC005E665E /* WAPhotoBrowserTableViewCell.m */; };
+		0D055AB51DA845100098A7D5 /* WACoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D055AB41DA845100098A7D5 /* WACoverView.m */; };
+		0D055ABB1DA84BA00098A7D5 /* WAAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D055ABA1DA84BA00098A7D5 /* WAAlertViewController.m */; };
+		0D0821361DAC824200C9B438 /* WALifeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0821351DAC824200C9B438 /* WALifeTableViewController.m */; };
+		0D0821391DAC85B500C9B438 /* WAFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0821381DAC85B500C9B438 /* WAFriendsTableViewController.m */; };
+		0D0844A61DAAD1D000912757 /* WADatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0844A51DAAD1D000912757 /* WADatePickerViewController.m */; };
+		0D0844A91DAAF62F00912757 /* WADatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0844A81DAAF62F00912757 /* WADatePickerView.m */; };
 		0D0F76EB1DA6B12300D98B16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F76EA1DA6B12300D98B16 /* main.m */; };
 		0D0F76EE1DA6B12400D98B16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F76ED1DA6B12400D98B16 /* AppDelegate.m */; };
 		0D0F76F11DA6B12400D98B16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F76F01DA6B12400D98B16 /* ViewController.m */; };
@@ -15,6 +23,20 @@
 		0D0F76F91DA6B12400D98B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0F76F71DA6B12400D98B16 /* LaunchScreen.storyboard */; };
 		0D0F77041DA6B12400D98B16 /* weiaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F77031DA6B12400D98B16 /* weiaiTests.m */; };
 		0D0F770F1DA6B12400D98B16 /* weiaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F770E1DA6B12400D98B16 /* weiaiUITests.m */; };
+		0D0F773C1DA6C14E00D98B16 /* WANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F773B1DA6C14E00D98B16 /* WANavigationController.m */; };
+		0D0F773F1DA6C18200D98B16 /* WATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F773E1DA6C18200D98B16 /* WATabBarController.m */; };
+		0D0F77451DA6C32D00D98B16 /* WAHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F77441DA6C32D00D98B16 /* WAHomeTableViewController.m */; };
+		0D3583F41DA97CBF00AF7B92 /* WAHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3583F31DA97CBF00AF7B92 /* WAHistoryTableViewController.m */; };
+		0D3583F71DA98B0300AF7B92 /* WAHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3583F61DA98B0300AF7B92 /* WAHistoryCell.m */; };
+		0D3583FA1DA98DE800AF7B92 /* WARecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3583F91DA98DE800AF7B92 /* WARecordModel.m */; };
+		0D3966491DB14799008E1948 /* WAPersonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3966481DB14799008E1948 /* WAPersonalTableViewController.m */; };
+		0D39664C1DB1498F008E1948 /* WALogInTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D39664B1DB1498F008E1948 /* WALogInTableViewController.m */; };
+		0D39664F1DB149A9008E1948 /* WAInformationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D39664E1DB149A9008E1948 /* WAInformationTableViewController.m */; };
+		0D3AF73E1DB2A89500D97AF4 /* WASettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3AF73D1DB2A89500D97AF4 /* WASettingTableViewController.m */; };
+		0D42AE171DB3E16C002E431B /* WAPhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D42AE161DB3E16C002E431B /* WAPhotoCollectionViewController.m */; };
+		0D42AE1A1DB3FC0C002E431B /* WAPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D42AE191DB3FC0C002E431B /* WAPhotoCollectionViewCell.m */; };
+		0D46EEAD1DAE8C6E002A9CD5 /* WAHistoryDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46EEAC1DAE8C6E002A9CD5 /* WAHistoryDataManager.m */; };
+		0D50FB601DB03B5E001227E6 /* WADetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50FB5F1DB03B5E001227E6 /* WADetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D00BD731DBB5DE2005E665E /* WAPhotoBrowserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAPhotoBrowserTableViewController.h; sourceTree = "<group>"; };
+		0D00BD741DBB5DE2005E665E /* WAPhotoBrowserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAPhotoBrowserTableViewController.m; sourceTree = "<group>"; };
+		0D00BD761DBB7ABC005E665E /* WAPhotoBrowserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAPhotoBrowserTableViewCell.h; sourceTree = "<group>"; };
+		0D00BD771DBB7ABC005E665E /* WAPhotoBrowserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAPhotoBrowserTableViewCell.m; sourceTree = "<group>"; };
+		0D055AB31DA845100098A7D5 /* WACoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WACoverView.h; sourceTree = "<group>"; };
+		0D055AB41DA845100098A7D5 /* WACoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WACoverView.m; sourceTree = "<group>"; };
+		0D055AB91DA84BA00098A7D5 /* WAAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAAlertViewController.h; sourceTree = "<group>"; };
+		0D055ABA1DA84BA00098A7D5 /* WAAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAAlertViewController.m; sourceTree = "<group>"; };
+		0D0821341DAC824200C9B438 /* WALifeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WALifeTableViewController.h; sourceTree = "<group>"; };
+		0D0821351DAC824200C9B438 /* WALifeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WALifeTableViewController.m; sourceTree = "<group>"; };
+		0D0821371DAC85B500C9B438 /* WAFriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAFriendsTableViewController.h; sourceTree = "<group>"; };
+		0D0821381DAC85B500C9B438 /* WAFriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAFriendsTableViewController.m; sourceTree = "<group>"; };
+		0D0844A41DAAD1D000912757 /* WADatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WADatePickerViewController.h; sourceTree = "<group>"; };
+		0D0844A51DAAD1D000912757 /* WADatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WADatePickerViewController.m; sourceTree = "<group>"; };
+		0D0844A71DAAF62F00912757 /* WADatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WADatePickerView.h; sourceTree = "<group>"; };
+		0D0844A81DAAF62F00912757 /* WADatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WADatePickerView.m; sourceTree = "<group>"; };
 		0D0F76E61DA6B12300D98B16 /* weiai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0F76EA1DA6B12300D98B16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D0F76EC1DA6B12300D98B16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +89,34 @@
 		0D0F770A1DA6B12400D98B16 /* weiaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0F770E1DA6B12400D98B16 /* weiaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiaiUITests.m; sourceTree = "<group>"; };
 		0D0F77101DA6B12400D98B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0F773A1DA6C14E00D98B16 /* WANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WANavigationController.h; sourceTree = "<group>"; };
+		0D0F773B1DA6C14E00D98B16 /* WANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WANavigationController.m; sourceTree = "<group>"; };
+		0D0F773D1DA6C18200D98B16 /* WATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATabBarController.h; sourceTree = "<group>"; };
+		0D0F773E1DA6C18200D98B16 /* WATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATabBarController.m; sourceTree = "<group>"; };
+		0D0F77431DA6C32D00D98B16 /* WAHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHomeTableViewController.h; sourceTree = "<group>"; };
+		0D0F77441DA6C32D00D98B16 /* WAHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHomeTableViewController.m; sourceTree = "<group>"; };
+		0D3583F21DA97CBF00AF7B92 /* WAHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHistoryTableViewController.h; sourceTree = "<group>"; };
+		0D3583F31DA97CBF00AF7B92 /* WAHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHistoryTableViewController.m; sourceTree = "<group>"; };
+		0D3583F51DA98B0300AF7B92 /* WAHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHistoryCell.h; sourceTree = "<group>"; };
+		0D3583F61DA98B0300AF7B92 /* WAHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHistoryCell.m; sourceTree = "<group>"; };
+		0D3583F81DA98DE800AF7B92 /* WARecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WARecordModel.h; sourceTree = "<group>"; };
+		0D3583F91DA98DE800AF7B92 /* WARecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WARecordModel.m; sourceTree = "<group>"; };
+		0D3966471DB14799008E1948 /* WAPersonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAPersonalTableViewController.h; sourceTree = "<group>"; };
+		0D3966481DB14799008E1948 /* WAPersonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAPersonalTableViewController.m; sourceTree = "<group>"; };
+		0D39664A1DB1498F008E1948 /* WALogInTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WALogInTableViewController.h; sourceTree = "<group>"; };
+		0D39664B1DB1498F008E1948 /* WALogInTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WALogInTableViewController.m; sourceTree = "<group>"; };
+		0D39664D1DB149A9008E1948 /* WAInformationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAInformationTableViewController.h; sourceTree = "<group>"; };
+		0D39664E1DB149A9008E1948 /* WAInformationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAInformationTableViewController.m; sourceTree = "<group>"; };
+		0D3AF73C1DB2A89500D97AF4 /* WASettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASettingTableViewController.h; sourceTree = "<group>"; };
+		0D3AF73D1DB2A89500D97AF4 /* WASettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASettingTableViewController.m; sourceTree = "<group>"; };
+		0D42AE151DB3E16C002E431B /* WAPhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAPhotoCollectionViewController.h; sourceTree = "<group>"; };
+		0D42AE161DB3E16C002E431B /* WAPhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAPhotoCollectionViewController.m; sourceTree = "<group>"; };
+		0D42AE181DB3FC0C002E431B /* WAPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		0D42AE191DB3FC0C002E431B /* WAPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		0D46EEAB1DAE8C6E002A9CD5 /* WAHistoryDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHistoryDataManager.h; sourceTree = "<group>"; };
+		0D46EEAC1DAE8C6E002A9CD5 /* WAHistoryDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHistoryDataManager.m; sourceTree = "<group>"; };
+		0D50FB5E1DB03B5E001227E6 /* WADetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WADetailTableViewController.h; sourceTree = "<group>"; };
+		0D50FB5F1DB03B5E001227E6 /* WADetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WADetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +144,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D055AB21DA844D70098A7D5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0D0F773D1DA6C18200D98B16 /* WATabBarController.h */,
+				0D0F773E1DA6C18200D98B16 /* WATabBarController.m */,
+				0D0F773A1DA6C14E00D98B16 /* WANavigationController.h */,
+				0D0F773B1DA6C14E00D98B16 /* WANavigationController.m */,
+				0D055AB31DA845100098A7D5 /* WACoverView.h */,
+				0D055AB41DA845100098A7D5 /* WACoverView.m */,
+				0D055AB91DA84BA00098A7D5 /* WAAlertViewController.h */,
+				0D055ABA1DA84BA00098A7D5 /* WAAlertViewController.m */,
+				0D0844A41DAAD1D000912757 /* WADatePickerViewController.h */,
+				0D0844A51DAAD1D000912757 /* WADatePickerViewController.m */,
+				0D0844A71DAAF62F00912757 /* WADatePickerView.h */,
+				0D0844A81DAAF62F00912757 /* WADatePickerView.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		0D0F76DD1DA6B12300D98B16 = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +188,14 @@
 			children = (
 				0D0F76EC1DA6B12300D98B16 /* AppDelegate.h */,
 				0D0F76ED1DA6B12400D98B16 /* AppDelegate.m */,
+				0D055AB21DA844D70098A7D5 /* Common */,
+				0D0F772A1DA6BE5C00D98B16 /* Home */,
+				0D0F77291DA6BE5800D98B16 /* Life */,
+				0D0F77281DA6BE5600D98B16 /* Friends */,
+				0D0F77271DA6BE5300D98B16 /* Personal */,
+				0D0F77261DA6BE4A00D98B16 /* Other */,
 				0D0F76EF1DA6B12400D98B16 /* ViewController.h */,
 				0D0F76F01DA6B12400D98B16 /* ViewController.m */,
-				0D0F76F21DA6B12400D98B16 /* Main.storyboard */,
-				0D0F76F51DA6B12400D98B16 /* Assets.xcassets */,
-				0D0F76F71DA6B12400D98B16 /* LaunchScreen.storyboard */,
-				0D0F76FA1DA6B12400D98B16 /* Info.plist */,
 				0D0F76E91DA6B12300D98B16 /* Supporting Files */,
 			);
 			path = weiai;
@@ -138,6 +225,181 @@
 				0D0F77101DA6B12400D98B16 /* Info.plist */,
 			);
 			path = weiaiUITests;
+			sourceTree = "<group>";
+		};
+		0D0F77261DA6BE4A00D98B16 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0D0F76F21DA6B12400D98B16 /* Main.storyboard */,
+				0D0F76F51DA6B12400D98B16 /* Assets.xcassets */,
+				0D0F76F71DA6B12400D98B16 /* LaunchScreen.storyboard */,
+				0D0F76FA1DA6B12400D98B16 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		0D0F77271DA6BE5300D98B16 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				0D0F77361DA6BE7700D98B16 /* controllers */,
+				0D0F77351DA6BE7500D98B16 /* views */,
+				0D0F77341DA6BE7400D98B16 /* model */,
+			);
+			name = Personal;
+			sourceTree = "<group>";
+		};
+		0D0F77281DA6BE5600D98B16 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				0D0F77331DA6BE7000D98B16 /* controllers */,
+				0D0F77321DA6BE6E00D98B16 /* views */,
+				0D0F77311DA6BE6D00D98B16 /* model */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		0D0F77291DA6BE5800D98B16 /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				0D0F77301DA6BE6A00D98B16 /* controllers */,
+				0D0F772F1DA6BE6800D98B16 /* views */,
+				0D0F772E1DA6BE6600D98B16 /* model */,
+			);
+			name = Life;
+			sourceTree = "<group>";
+		};
+		0D0F772A1DA6BE5C00D98B16 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0D0F772D1DA6BE6300D98B16 /* controllers */,
+				0D0F772C1DA6BE6200D98B16 /* views */,
+				0D0F772B1DA6BE6000D98B16 /* model */,
+				0D46EEAA1DAE8BB8002A9CD5 /* sevices */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		0D0F772B1DA6BE6000D98B16 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0D3583F81DA98DE800AF7B92 /* WARecordModel.h */,
+				0D3583F91DA98DE800AF7B92 /* WARecordModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		0D0F772C1DA6BE6200D98B16 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0D3583F51DA98B0300AF7B92 /* WAHistoryCell.h */,
+				0D3583F61DA98B0300AF7B92 /* WAHistoryCell.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		0D0F772D1DA6BE6300D98B16 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D0F77431DA6C32D00D98B16 /* WAHomeTableViewController.h */,
+				0D0F77441DA6C32D00D98B16 /* WAHomeTableViewController.m */,
+				0D3583F21DA97CBF00AF7B92 /* WAHistoryTableViewController.h */,
+				0D3583F31DA97CBF00AF7B92 /* WAHistoryTableViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		0D0F772E1DA6BE6600D98B16 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		0D0F772F1DA6BE6800D98B16 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		0D0F77301DA6BE6A00D98B16 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D0821341DAC824200C9B438 /* WALifeTableViewController.h */,
+				0D0821351DAC824200C9B438 /* WALifeTableViewController.m */,
+				0D50FB5E1DB03B5E001227E6 /* WADetailTableViewController.h */,
+				0D50FB5F1DB03B5E001227E6 /* WADetailTableViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		0D0F77311DA6BE6D00D98B16 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		0D0F77321DA6BE6E00D98B16 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		0D0F77331DA6BE7000D98B16 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D0821371DAC85B500C9B438 /* WAFriendsTableViewController.h */,
+				0D0821381DAC85B500C9B438 /* WAFriendsTableViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		0D0F77341DA6BE7400D98B16 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		0D0F77351DA6BE7500D98B16 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0D42AE181DB3FC0C002E431B /* WAPhotoCollectionViewCell.h */,
+				0D42AE191DB3FC0C002E431B /* WAPhotoCollectionViewCell.m */,
+				0D00BD761DBB7ABC005E665E /* WAPhotoBrowserTableViewCell.h */,
+				0D00BD771DBB7ABC005E665E /* WAPhotoBrowserTableViewCell.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		0D0F77361DA6BE7700D98B16 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D3966471DB14799008E1948 /* WAPersonalTableViewController.h */,
+				0D3966481DB14799008E1948 /* WAPersonalTableViewController.m */,
+				0D39664A1DB1498F008E1948 /* WALogInTableViewController.h */,
+				0D39664B1DB1498F008E1948 /* WALogInTableViewController.m */,
+				0D39664D1DB149A9008E1948 /* WAInformationTableViewController.h */,
+				0D39664E1DB149A9008E1948 /* WAInformationTableViewController.m */,
+				0D42AE151DB3E16C002E431B /* WAPhotoCollectionViewController.h */,
+				0D42AE161DB3E16C002E431B /* WAPhotoCollectionViewController.m */,
+				0D00BD731DBB5DE2005E665E /* WAPhotoBrowserTableViewController.h */,
+				0D00BD741DBB5DE2005E665E /* WAPhotoBrowserTableViewController.m */,
+				0D3AF73C1DB2A89500D97AF4 /* WASettingTableViewController.h */,
+				0D3AF73D1DB2A89500D97AF4 /* WASettingTableViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		0D46EEAA1DAE8BB8002A9CD5 /* sevices */ = {
+			isa = PBXGroup;
+			children = (
+				0D46EEAB1DAE8C6E002A9CD5 /* WAHistoryDataManager.h */,
+				0D46EEAC1DAE8C6E002A9CD5 /* WAHistoryDataManager.m */,
+			);
+			name = sevices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +464,8 @@
 		0D0F76DE1DA6B12300D98B16 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				CLASSPREFIX = WA;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Morphine;
 				TargetAttributes = {
 					0D0F76E51DA6B12300D98B16 = {
@@ -276,9 +539,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D46EEAD1DAE8C6E002A9CD5 /* WAHistoryDataManager.m in Sources */,
+				0D00BD781DBB7ABC005E665E /* WAPhotoBrowserTableViewCell.m in Sources */,
+				0D0F773F1DA6C18200D98B16 /* WATabBarController.m in Sources */,
+				0D39664F1DB149A9008E1948 /* WAInformationTableViewController.m in Sources */,
+				0D3583FA1DA98DE800AF7B92 /* WARecordModel.m in Sources */,
+				0D0844A61DAAD1D000912757 /* WADatePickerViewController.m in Sources */,
+				0D055ABB1DA84BA00098A7D5 /* WAAlertViewController.m in Sources */,
+				0D3583F71DA98B0300AF7B92 /* WAHistoryCell.m in Sources */,
+				0D42AE1A1DB3FC0C002E431B /* WAPhotoCollectionViewCell.m in Sources */,
+				0D3AF73E1DB2A89500D97AF4 /* WASettingTableViewController.m in Sources */,
+				0D42AE171DB3E16C002E431B /* WAPhotoCollectionViewController.m in Sources */,
 				0D0F76F11DA6B12400D98B16 /* ViewController.m in Sources */,
 				0D0F76EE1DA6B12400D98B16 /* AppDelegate.m in Sources */,
+				0D055AB51DA845100098A7D5 /* WACoverView.m in Sources */,
+				0D3966491DB14799008E1948 /* WAPersonalTableViewController.m in Sources */,
+				0D0844A91DAAF62F00912757 /* WADatePickerView.m in Sources */,
+				0D39664C1DB1498F008E1948 /* WALogInTableViewController.m in Sources */,
+				0D50FB601DB03B5E001227E6 /* WADetailTableViewController.m in Sources */,
+				0D0821361DAC824200C9B438 /* WALifeTableViewController.m in Sources */,
 				0D0F76EB1DA6B12300D98B16 /* main.m in Sources */,
+				0D0F77451DA6C32D00D98B16 /* WAHomeTableViewController.m in Sources */,
+				0D0821391DAC85B500C9B438 /* WAFriendsTableViewController.m in Sources */,
+				0D3583F41DA97CBF00AF7B92 /* WAHistoryTableViewController.m in Sources */,
+				0D0F773C1DA6C14E00D98B16 /* WANavigationController.m in Sources */,
+				0D00BD751DBB5DE2005E665E /* WAPhotoBrowserTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +636,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -398,6 +684,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -514,6 +801,7 @@
 				0D0F77151DA6B12400D98B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D0F77161DA6B12400D98B16 /* Build configuration list for PBXNativeTarget "weiaiTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +810,7 @@
 				0D0F77181DA6B12400D98B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D0F77191DA6B12400D98B16 /* Build configuration list for PBXNativeTarget "weiaiUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +819,7 @@
 				0D0F771B1DA6B12400D98B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
