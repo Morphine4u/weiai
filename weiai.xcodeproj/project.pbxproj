@@ -160,7 +160,7 @@
 				0D0844A71DAAF62F00912757 /* WADatePickerView.h */,
 				0D0844A81DAAF62F00912757 /* WADatePickerView.m */,
 			);
-			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		0D0F76DD1DA6B12300D98B16 = {
@@ -194,6 +194,10 @@
 				0D0F77281DA6BE5600D98B16 /* Friends */,
 				0D0F77271DA6BE5300D98B16 /* Personal */,
 				0D0F77261DA6BE4A00D98B16 /* Other */,
+				0D0F76F21DA6B12400D98B16 /* Main.storyboard */,
+				0D0F76F51DA6B12400D98B16 /* Assets.xcassets */,
+				0D0F76F71DA6B12400D98B16 /* LaunchScreen.storyboard */,
+				0D0F76FA1DA6B12400D98B16 /* Info.plist */,
 				0D0F76EF1DA6B12400D98B16 /* ViewController.h */,
 				0D0F76F01DA6B12400D98B16 /* ViewController.m */,
 				0D0F76E91DA6B12300D98B16 /* Supporting Files */,
@@ -230,10 +234,6 @@
 		0D0F77261DA6BE4A00D98B16 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				0D0F76F21DA6B12400D98B16 /* Main.storyboard */,
-				0D0F76F51DA6B12400D98B16 /* Assets.xcassets */,
-				0D0F76F71DA6B12400D98B16 /* LaunchScreen.storyboard */,
-				0D0F76FA1DA6B12400D98B16 /* Info.plist */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 				0D0F77351DA6BE7500D98B16 /* views */,
 				0D0F77341DA6BE7400D98B16 /* model */,
 			);
-			name = Personal;
+			path = Personal;
 			sourceTree = "<group>";
 		};
 		0D0F77281DA6BE5600D98B16 /* Friends */ = {
@@ -255,7 +255,7 @@
 				0D0F77321DA6BE6E00D98B16 /* views */,
 				0D0F77311DA6BE6D00D98B16 /* model */,
 			);
-			name = Friends;
+			path = Friends;
 			sourceTree = "<group>";
 		};
 		0D0F77291DA6BE5800D98B16 /* Life */ = {
@@ -265,7 +265,7 @@
 				0D0F772F1DA6BE6800D98B16 /* views */,
 				0D0F772E1DA6BE6600D98B16 /* model */,
 			);
-			name = Life;
+			path = Life;
 			sourceTree = "<group>";
 		};
 		0D0F772A1DA6BE5C00D98B16 /* Home */ = {
@@ -276,7 +276,7 @@
 				0D0F772B1DA6BE6000D98B16 /* model */,
 				0D46EEAA1DAE8BB8002A9CD5 /* sevices */,
 			);
-			name = Home;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		0D0F772B1DA6BE6000D98B16 /* model */ = {
@@ -285,7 +285,7 @@
 				0D3583F81DA98DE800AF7B92 /* WARecordModel.h */,
 				0D3583F91DA98DE800AF7B92 /* WARecordModel.m */,
 			);
-			name = model;
+			path = model;
 			sourceTree = "<group>";
 		};
 		0D0F772C1DA6BE6200D98B16 /* views */ = {
@@ -294,7 +294,7 @@
 				0D3583F51DA98B0300AF7B92 /* WAHistoryCell.h */,
 				0D3583F61DA98B0300AF7B92 /* WAHistoryCell.m */,
 			);
-			name = views;
+			path = views;
 			sourceTree = "<group>";
 		};
 		0D0F772D1DA6BE6300D98B16 /* controllers */ = {
@@ -305,21 +305,21 @@
 				0D3583F21DA97CBF00AF7B92 /* WAHistoryTableViewController.h */,
 				0D3583F31DA97CBF00AF7B92 /* WAHistoryTableViewController.m */,
 			);
-			name = controllers;
+			path = controllers;
 			sourceTree = "<group>";
 		};
 		0D0F772E1DA6BE6600D98B16 /* model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = model;
+			path = model;
 			sourceTree = "<group>";
 		};
 		0D0F772F1DA6BE6800D98B16 /* views */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = views;
+			path = views;
 			sourceTree = "<group>";
 		};
 		0D0F77301DA6BE6A00D98B16 /* controllers */ = {
@@ -330,21 +330,21 @@
 				0D50FB5E1DB03B5E001227E6 /* WADetailTableViewController.h */,
 				0D50FB5F1DB03B5E001227E6 /* WADetailTableViewController.m */,
 			);
-			name = controllers;
+			path = controllers;
 			sourceTree = "<group>";
 		};
 		0D0F77311DA6BE6D00D98B16 /* model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = model;
+			path = model;
 			sourceTree = "<group>";
 		};
 		0D0F77321DA6BE6E00D98B16 /* views */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = views;
+			path = views;
 			sourceTree = "<group>";
 		};
 		0D0F77331DA6BE7000D98B16 /* controllers */ = {
@@ -353,14 +353,14 @@
 				0D0821371DAC85B500C9B438 /* WAFriendsTableViewController.h */,
 				0D0821381DAC85B500C9B438 /* WAFriendsTableViewController.m */,
 			);
-			name = controllers;
+			path = controllers;
 			sourceTree = "<group>";
 		};
 		0D0F77341DA6BE7400D98B16 /* model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = model;
+			path = model;
 			sourceTree = "<group>";
 		};
 		0D0F77351DA6BE7500D98B16 /* views */ = {
@@ -371,7 +371,7 @@
 				0D00BD761DBB7ABC005E665E /* WAPhotoBrowserTableViewCell.h */,
 				0D00BD771DBB7ABC005E665E /* WAPhotoBrowserTableViewCell.m */,
 			);
-			name = views;
+			path = views;
 			sourceTree = "<group>";
 		};
 		0D0F77361DA6BE7700D98B16 /* controllers */ = {
@@ -390,7 +390,7 @@
 				0D3AF73C1DB2A89500D97AF4 /* WASettingTableViewController.h */,
 				0D3AF73D1DB2A89500D97AF4 /* WASettingTableViewController.m */,
 			);
-			name = controllers;
+			path = controllers;
 			sourceTree = "<group>";
 		};
 		0D46EEAA1DAE8BB8002A9CD5 /* sevices */ = {
@@ -399,7 +399,7 @@
 				0D46EEAB1DAE8C6E002A9CD5 /* WAHistoryDataManager.h */,
 				0D46EEAC1DAE8C6E002A9CD5 /* WAHistoryDataManager.m */,
 			);
-			name = sevices;
+			path = sevices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
