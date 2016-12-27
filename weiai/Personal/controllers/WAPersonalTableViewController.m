@@ -1,29 +1,47 @@
 //
-//  WALifeTableViewController.m
+//  WAPersonalTableViewController.m
 //  weiai
 //
-//  Created by Morphine on 2016/10/11.
+//  Created by Morphine on 2016/10/15.
 //  Copyright © 2016年 Morphine. All rights reserved.
 //
 
-#import "WALifeTableViewController.h"
+#import "WAPersonalTableViewController.h"
+#import "WAInformationTableViewController.h"
+#import "WALogInTableViewController.h"
+#import "WAPhotoCollectionViewController.h"
 
-@interface WALifeTableViewController ()
+@interface WAPersonalTableViewController ()
 
 @end
 
-@implementation WALifeTableViewController
+@implementation WAPersonalTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"logIn"]) {
+        //已登录
+        self.prompt.hidden = YES;
+        self.header.userInteractionEnabled = NO;
+        self.header.image = [UIImage imageNamed:@"touxiang"];
+        
+    } else {
+        //未登录
+        self.header.userInteractionEnabled = YES;
+        self.prompt.hidden = NO;
+        self.header.image = [UIImage imageNamed:@"touxiang_nan"];
+    }
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -33,41 +51,57 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 
-    return 10;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
-    return 1;
+    if (section == 0) {
+        return 1;
+    } else if (section == 1) {
+        return 5;
+    }
+    return 0;
 }
 
-
+/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    UITableViewCell *cell = nil;
-    if (indexPath.section % 2 == 0) {
-        
-        cell = [tableView dequeueReusableCellWithIdentifier:@"lifeCellWord" forIndexPath:indexPath];
-    } else if (indexPath.section % 2 == 1) {
-        cell = [tableView dequeueReusableCellWithIdentifier:@"lifeCellImage" forIndexPath:indexPath];
-    }
-//    cell.textLabel.text = [NSString stringWithFormat:@"%lu",indexPath.row+1];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier" forIndexPath:indexPath];
+ 
     // Configure the cell...
     
     return cell;
 }
+*/
 #pragma mark - UITableViewDelegate
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.section % 2 == 0) {
-        return 180;
-    } else if (indexPath.section % 2 == 1) {
-        return 300;
+    if (indexPath.section == 0) {
+        return 150;
+    } else if (indexPath.section == 1) {
+        return 50;
     }
-    return 300;
+    return 0;
 }
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return 20;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    BOOL logIn = [[NSUserDefaults standardUserDefaults] boolForKey:@"logIn"];
+    if (logIn) {
+        //已登录 进入个人信息
+        if (indexPath.section == 0) {
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+                WAInformationTableViewController *informationTVC = (WAInformationTableViewController *)[storyboard instantiateViewControllerWithIdentifier:@"informationTVC"];
+            [self.navigationController pushViewController:informationTVC animated:YES];
+            
+        } else if (indexPath.section == 1) {
+            if (indexPath.row == 0) {
+                WAPhotoCollectionViewController *photoCVC = [WAPhotoCollectionViewController sharedWAPhotoCollectionViewController];
+                [self.navigationController pushViewController:photoCVC animated:YES];
+            }
+        }
+    } else if (!logIn) {
+        
+    }
+     [tableView deselectRowAtIndexPath:indexPath animated:NO]; 
 }
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -75,10 +109,7 @@
     return YES;
 }
 */
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-//    [tableView deselectRowAtIndexPath:indexPath animated:NO];
-}
+
 /*
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {

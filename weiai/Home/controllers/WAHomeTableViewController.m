@@ -30,7 +30,6 @@
     self.recordDic = [NSMutableDictionary dictionary];
 //    _recordDate = [[NSDate alloc] init];
     
-    
 //    //获取通知中心单例对象
 //    NSNotificationCenter * center = [NSNotificationCenter defaultCenter];
 //    //添加当前类对象为一个观察者，name和object设置为nil，表示接收一切通知
@@ -42,8 +41,8 @@
     NSString *latelyDateFile = @"latelyDate.plist";
     NSString *latelyDateFilePath=[documentPath stringByAppendingPathComponent:latelyDateFile];
     if (latelyDateFilePath) {
-        NSMutableArray *latelyDateArray = [NSMutableArray arrayWithCapacity:1];
-       latelyDateArray = [NSMutableArray arrayWithContentsOfFile:latelyDateFilePath];
+//        NSMutableArray *latelyDateArray = [NSMutableArray arrayWithCapacity:1];
+       NSMutableArray *latelyDateArray = [NSMutableArray arrayWithContentsOfFile:latelyDateFilePath];
         NSDate *latelyDate = latelyDateArray[0];
         //---------------------改变主页的日期和天数--------------
         // 格式化日期格式
@@ -275,7 +274,6 @@
     [alert show];
     
 }
-
 
 #pragma mark - UIImagePickerControllerDelegate
 

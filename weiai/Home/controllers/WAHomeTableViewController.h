@@ -10,8 +10,14 @@
 
 @interface WAHomeTableViewController : UITableViewController
 
+/**
+*  顶部注释多行
+*/
 @property (nonatomic, strong) NSMutableDictionary *recordDic;
+
+/** 顶部注释一行 */
 @property (weak, nonatomic) IBOutlet UILabel *predictiveTimeLabel;
-@property (weak, nonatomic) IBOutlet UILabel *daysLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *daysLabel;/**< 右侧注释 */
 
 @end
